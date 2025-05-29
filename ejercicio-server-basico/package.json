@@ -1,0 +1,17 @@
+{
+  "name": "express-esqueleto",
+  "version": "1.0.0",
+  "description": "Servidor Express básico con estructura modular",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "devnodemon": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.3",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0"
+  }
+}
